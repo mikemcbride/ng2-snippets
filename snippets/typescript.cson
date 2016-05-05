@@ -1,5 +1,4 @@
-'.source.ts'
-"""
+'.source.ts':
   'Angular Component':
     'prefix': 'ng2-component'
     'body': """
@@ -52,7 +51,7 @@
     """
   'Angular RouteDefinition':
     'prefix': 'ng2-route-path'
-    'body': '{ path: '/${1:path}', component: ${2:Component} }$3'
+    'body': "{ path: '/${1:path}', component: ${2:Component} }$3"
   'Http.get':
     'prefix': 'ng2-http-get'
     'body': """
@@ -103,6 +102,6 @@
       @Routes([
       	$3
       ])
-      
+
       export class AppComponent {}
     """

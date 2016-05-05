@@ -1,4 +1,4 @@
-'.source.html'
+'.source.html':
   'ngClass':
     'prefix': 'ng2-ngClass'
     'body': '[ngClass]="{${1:cssClass}: ${2:expression}}"'
@@ -21,7 +21,7 @@
     'prefix': 'ng2-ngSwitch'
     'body': """
       <div [ngSwitch]="${1:conditionExpression}">
-        <div *ngSwitchWhen="${2:expression}">${3:output}</div>
-        <div *ngSwitchDefault>${4:output2}</div>
+      \t<div *ngSwitchWhen="${2:expression}">${3:output}</div>
+      \t<div *ngSwitchDefault>${4:output2}</div>
       </div>
     """
