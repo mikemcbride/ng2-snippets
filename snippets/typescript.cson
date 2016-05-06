@@ -61,7 +61,7 @@
   'Subscribe':
     'prefix': 'ng2-subscribe'
     'body': """
-      this.${1:service}.${2:function}
+      this.${1:service}.${2:function}()
       	.subscribe(${3:arg} => this.${4:property} = ${5:arg});
       $6
     """
