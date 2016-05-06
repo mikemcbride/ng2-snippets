@@ -1,6 +1,6 @@
 {
   "name": "ng2-snippets",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Angular2 snippets for Atom based on John Papa's VS Code snippets",
   "keywords": [
     "angular2",
